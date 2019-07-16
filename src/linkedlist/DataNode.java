@@ -1,14 +1,18 @@
 package linkedlist;
 
 public class DataNode {
-    private int no;
-    private String name;
-    DataNode next;
+    protected int no;
+    protected String name;
+    protected DataNode next;
+
+    public DataNode() {
+    }
 
     public DataNode(int no, String name) {
         this.no = no;
         this.name = name;
     }
+
 
     @Override
     public String toString() {
