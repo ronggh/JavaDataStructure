@@ -2,6 +2,7 @@ package recursion;
 
 public class Queue8 {
 
+
 	//定义一个max表示共有多少个皇后
 	int max = 8;
 	//定义数组array, 保存皇后放置位置的结果,比如 arr = {0 , 4, 7, 5, 2, 6, 1, 3}
