@@ -13,8 +13,8 @@ public class Queue8 {
 		//测试一把 ， 8皇后是否正确
 		Queue8 queue8 = new Queue8();
 		queue8.check(0);
-		System.out.printf("一共有%d解法", count);
-		System.out.printf("一共判断冲突的次数%d次", judgeCount); // 1.5w
+		System.out.printf("一共有%d解法\n", count);
+		System.out.printf("一共判断冲突的次数%d次\n", judgeCount); // 1.5w
 
 	}
 
