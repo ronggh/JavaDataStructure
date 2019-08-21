@@ -18,7 +18,7 @@ public class ShellSort {
             array2[i] = (int) (Math.random() * 1000000);
             array3[i] = array2[i];
         }
-        System.out.println("排序前：" + Arrays.toString(array3));
+        //System.out.println("排序前：" + Arrays.toString(array3));
 
         long startTime = System.currentTimeMillis();
         ss.shellSort(array2);
