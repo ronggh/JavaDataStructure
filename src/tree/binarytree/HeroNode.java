@@ -1,4 +1,4 @@
-package tree;
+package tree.binarytree;
 
 public class HeroNode {
     private int no;
@@ -45,7 +45,7 @@ public class HeroNode {
 
     @Override
     public String toString() {
-        return "HeroNode [no = " + no + ", name = " + name + "]";
+        return "ThreadedHeroNode [no = " + no + ", name = " + name + "]";
     }
 
     //编写前序遍历的方法

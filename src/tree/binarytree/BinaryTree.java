@@ -1,4 +1,4 @@
-package tree;
+package tree.binarytree;
 
 public class BinaryTree {
     private HeroNode root;
