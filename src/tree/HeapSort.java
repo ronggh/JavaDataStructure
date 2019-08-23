@@ -20,7 +20,6 @@ public class HeapSort {
         long endTime = System.currentTimeMillis();
         System.out.println("耗时：" + (endTime - startTime) + "毫秒");
 
-
     }
 
     //编写一个堆排序的方法
