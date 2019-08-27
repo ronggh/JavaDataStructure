@@ -26,8 +26,12 @@ public class BinarySortTreeTest {
         // 删除有2个子树的节点
         binarySortTree.delNode(7);
 
+        binarySortTree.delNode(10);
+
         System.out.println("删除结点后");
         binarySortTree.infixOrder();
+
+        System.out.println("根节点为：" + binarySortTree.getRoot());
     }
 
 
